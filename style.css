@@ -1,0 +1,90 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2B3844;
+    color: white;
+    height: 80px;
+}
+nav button{
+    border: none;
+    background-color: #2B3844;
+    color: white;
+    margin-right: 70px;
+}
+nav h1{
+    margin-left: 50px;
+}
+.card{
+    background-color: #2b3844;
+    width: 264px;
+    height: 336px;
+    color: white;
+}
+.card img{
+    width: 264px;
+    height: 160px;
+}
+.card h1{
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.card p{
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+main{
+    background-color: #202c36;
+}
+.bir{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.ikki{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+input{
+    width: 480px;
+    height: 56px;
+    background-color: #2B3844;
+    border: none;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+input::placeholder{
+    color: white;
+}
+@media (max-width:1087px){
+    .bir{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ikki{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bir .card{
+        margin-top: 20px;
+    }
+    .ikki .card{
+        margin-top: 20px;
+    }
+    nav h1{
+        font-size: 14px;
+    }
+    main input{
+        width: 333px;
+        height: 48px;
+    }
+    nav button{
+        margin-left: 20px;
+    }
+}
